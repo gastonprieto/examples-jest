@@ -1,0 +1,1 @@
+export const fetchPrice = () => { throw new Error("Not implement") };
