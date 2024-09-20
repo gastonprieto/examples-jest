@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx jest",
-    "coverage": "npx jest --coverage && rm -rf coverage"
+    "coverage": "npx jest --coverage && rm -rf coverage",
+    "lint:fix": "npx eslint --fix ."
   },
   "author": "",
   "license": "MIT",
