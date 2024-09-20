@@ -9,7 +9,7 @@ axiosMockFetchPriceWithValue = (price) => {
     axios.get.mockResolvedValue({ data: createBody(price) });
 }
 
-describe('Service bitcoin', () => {
+describe('Service bitcoin - Mocking Axios', () => {
 
     afterEach(() => {
         jest.clearAllMocks();
