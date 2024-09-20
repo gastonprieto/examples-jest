@@ -5,7 +5,7 @@ import { createBody } from "./mocks.js";
 
 jest.mock("axios");
 
-axiosMockFetchPriceWithValue = (price) => {
+const axiosMockFetchPriceWithValue = (price) => {
     axios.get.mockResolvedValue({ data: createBody(price) });
 }
 
